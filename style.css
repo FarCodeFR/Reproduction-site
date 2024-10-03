@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(./images/pexels-photo-880675.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain cover;
+  background-position: center;
+}
+
+/* Barre de navigation */
+
+nav {
+  border: solid rgb(148, 132, 132) 0px;
+}
+
+a > img {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul > a {
+  color: white;
+  margin-right: 2rem;
+  font-size: 24px;
+  list-style: none;
+}
+
+/* Main */
+
+main {
+  display: inline;
+  border: solid white 0px;
+  justify-content: center;
+}
+
+main > h1 {
+  color: white;
+  margin: 200px 30%;
+  font-size: 84px;
+}
+
+/* Button */
+
+.follow-us {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border: solid rgb(0, 0, 0) 1px;
+  width: 300px;
+  height: 70px;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 25px;
+}
